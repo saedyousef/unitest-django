@@ -6,11 +6,12 @@ class Tests(unittest.TestCase):
     def test_1(self):
         """ Check that 1 is not Prime. """
         self.assertFalse(is_prime(1))
+        
 
     def test_2(self):
         """ Check that 2 is Prime. """
         self.assertTrue(is_prime(2))
-    
+
     def test_11(self):
         """ Check that 11 is Prime. """
         self.assertTrue(is_prime(11))
@@ -22,6 +23,6 @@ class Tests(unittest.TestCase):
     def test_28(self):
         """ Check that 28 is not Prime. """
         self.assertFalse(is_prime(28))
-    
+
 if __name__ == "__main__":
     unittest.main()
