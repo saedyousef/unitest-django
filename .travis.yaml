@@ -4,4 +4,4 @@ python:
 install:
     - pip install -r requirements.txt
 script:
-    - python manage.py tess
+    - python manage.py test
