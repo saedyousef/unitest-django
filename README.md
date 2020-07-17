@@ -1,1 +1,1 @@
-# cs50-unitest-django
+# unitest-django
